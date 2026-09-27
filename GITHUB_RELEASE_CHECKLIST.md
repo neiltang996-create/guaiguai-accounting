@@ -33,7 +33,11 @@
 
 本机使用 JDK 17、SDK 35、Gradle 8.11.1；本机 Gradle 与依赖来自已有缓存。没有构建签名 Release、上传 APK、执行 Docker/NAS 线上部署或重新测试私人手机。文档中的 29 个本地链接全部有效；Git 暂存差异检查及私有文件忽略规则验证通过。
 
-发布后通过未登录的 GitHub API 核对首个公开版本：231 个文件路径和 Git blob 哈希全部与审阅版本一致。首次 GitHub Actions 因 `sdkmanager` 不在 PATH 而失败；已改为从 Runner 的 `ANDROID_HOME` 显式定位工具，完整云端校验重新运行中。不会将跳过或失败步骤记为通过。
+发布后通过未登录的 GitHub API 核对首个公开版本：231 个文件路径和 Git blob 哈希全部与审阅版本一致。首次 GitHub Actions 因 `sdkmanager` 不在 PATH 而失败；已改为从 Runner 的 `ANDROID_HOME` 显式定位工具。
+
+**GitHub Actions 运行 36290630707（代码提交 `c3418b5`）已全部通过**：隐私与完整历史扫描、Gitleaks、Python 服务端测试、Android 单元测试、lint、Debug 和 Demo 构建。此次云端运行使用独立 Linux 环境，不依赖本机 Android 缓存或私人配置。Android 设备验收仍是上表记录的本机模拟器结果，没有将云端编译冒充真机验证。
+
+GitHub 原生秘密扫描和推送保护均已启用，发布核对时秘密扫描告警为 0。零告警不代表穷尽所有隐私风险。CI 仍提示固定版本 Actions 的 Node 20 / setup-java v4 弃用，以及未来 `ubuntu-latest` 镜像迁移；这些维护提示未阻止本次运行，后续应单独升级验证。
 
 lint 警告包括 28 项 KTX 建议、20 项未使用资源、4 项静态 Context 引用、4 项过时 SDK 判断、3 项旧 lint 检查兼容性、2 项点击无障碍语义，以及其他 6 项图标、API、布局/电池策略提示。它们没有被隐藏；需在后续迭代逐项判断，不能将本次构建通过等同于商业发布认证。
 
