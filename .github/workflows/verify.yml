@@ -19,7 +19,17 @@ jobs:
           distribution: temurin
           java-version: '17'
       - name: Install Android platform
-        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK_MANAGER_PATH="${ANDROID_HOME:?Runner Android SDK is required}/cmdline-tools/latest/bin/sdkmanager"
+          if [[ ! -x "$SDK_MANAGER_PATH" ]]; then
+            for candidate in "$ANDROID_HOME"/cmdline-tools/*/bin/sdkmanager; do
+              if [[ -x "$candidate" ]]; then SDK_MANAGER_PATH="$candidate"; break; fi
+            done
+          fi
+          [[ -x "$SDK_MANAGER_PATH" ]] || { echo "Android command-line tools are missing" >&2; exit 1; }
+          "$SDK_MANAGER_PATH" 'platforms;android-35' 'build-tools;35.0.0'
       - name: Check public files and history
         run: python3 scripts/privacy_scan.py --history
       - name: Verify and run Gitleaks

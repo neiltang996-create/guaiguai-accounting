@@ -31,7 +31,7 @@
 - 签名：私钥和 properties 留在仓库之外，通过 `FL_SIGNING_PROPERTIES` 显式提供。不要更换现用私人安装签名或拿公开包覆盖现用数据。
 - `.gitignore` 只是防误提交辅助，不能清理已经进入 Git 的内容。提交前应运行仓库扫描和完整历史扫描。
 
-如果凭据曾公开，应撤销/轮换；仅删除文件不代表远端缓存、fork 或已有副本消失。处理步骤参考 [GitHub 官方说明](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)。本次未创建远端仓库、未 push，不把“曾在本地出现”直接当作“已公开泄漏”。
+如果凭据曾公开，应撤销/轮换；仅删除文件不代表远端缓存、fork 或已有副本消失。处理步骤参考 [GitHub 官方说明](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)。本次在脱敏、审查并获得作者确认后才创建公开仓库并推送；原始私人工作区没有公开，不把“曾在本地出现”直接当作“已公开泄漏”。
 
 ## 公开材料规则
 
