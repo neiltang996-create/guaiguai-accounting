@@ -1,0 +1,563 @@
+{
+  "className": "android.widget.FrameLayout",
+  "packageName": "com.icbc",
+  "children": [
+    {
+      "className": "android.widget.LinearLayout",
+      "packageName": "com.icbc",
+      "children": [
+        {
+          "className": "android.widget.FrameLayout",
+          "viewId": "android:id/content",
+          "packageName": "com.icbc",
+          "children": [
+            {
+              "className": "android.widget.RelativeLayout",
+              "packageName": "com.icbc",
+              "children": [
+                {
+                  "className": "android.widget.LinearLayout",
+                  "viewId": "com.icbc:id/ll_baseClinet",
+                  "packageName": "com.icbc",
+                  "children": [
+                    {
+                      "className": "android.widget.RelativeLayout",
+                      "viewId": "com.icbc:id/title_bar",
+                      "packageName": "com.icbc",
+                      "children": [
+                        {
+                          "className": "android.widget.LinearLayout",
+                          "viewId": "com.icbc:id/body",
+                          "packageName": "com.icbc",
+                          "children": [
+                            {
+                              "className": "android.widget.RelativeLayout",
+                              "viewId": "com.icbc:id/newNavBar",
+                              "packageName": "com.icbc",
+                              "children": [
+                                {
+                                  "className": "android.widget.Button",
+                                  "viewId": "com.icbc:id/return_btn",
+                                  "contentDescription": "返回",
+                                  "packageName": "com.icbc"
+                                },
+                                {
+                                  "className": "android.widget.TextView",
+                                  "viewId": "com.icbc:id/menu_title",
+                                  "text": "明细详情",
+                                  "packageName": "com.icbc"
+                                },
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "packageName": "com.icbc",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.Button",
+                                      "viewId": "com.icbc:id/navbar_more_btn",
+                                      "contentDescription": "保存到相册",
+                                      "packageName": "com.icbc"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "className": "android.widget.LinearLayout",
+                      "packageName": "com.icbc",
+                      "children": [
+                        {
+                          "className": "android.widget.ScrollView",
+                          "viewId": "com.icbc:id/sv_detailremark",
+                          "packageName": "com.icbc",
+                          "children": [
+                            {
+                              "className": "android.widget.LinearLayout",
+                              "packageName": "com.icbc",
+                              "children": [
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "packageName": "com.icbc",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.TextView",
+                                      "viewId": "com.icbc:id/tv_account",
+                                      "text": "-16.25",
+                                      "contentDescription": "负16.25",
+                                      "packageName": "com.icbc"
+                                    },
+                                    {
+                                      "className": "android.widget.LinearLayout",
+                                      "viewId": "com.icbc:id/ll_balance_show",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.TextView",
+                                          "text": "余额: ",
+                                          "packageName": "com.icbc"
+                                        },
+                                        {
+                                          "className": "android.widget.TextView",
+                                          "viewId": "com.icbc:id/tv_account_money",
+                                          "text": "-32.50",
+                                          "packageName": "com.icbc"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "packageName": "com.icbc",
+                                  "children": [
+                                    {
+                                      "className": "android.view.View",
+                                      "packageName": "com.icbc"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "viewId": "com.icbc:id/ll_detail",
+                                  "packageName": "com.icbc",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易时间",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "2024-04-12",
+                                              "contentDescription": "2024-04-12",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "记账时间",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "2024-04-12 10:20:29",
+                                              "contentDescription": "2024-04-12 10:20:29",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易卡号",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "6229****8801",
+                                              "contentDescription": "6 二 二 9 星 星 星 星 8 8 0 1",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "业务摘要",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "ETC代扣",
+                                              "contentDescription": "ETC代扣",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易国家或地区简称",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "CHN",
+                                              "contentDescription": "CHN",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易场所",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "示例城市支行营业室",
+                                              "contentDescription": "示例城市支行营业室",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易金额",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "16.25",
+                                              "contentDescription": "16.25",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "记账金额",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "16.25",
+                                              "contentDescription": "16.25",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "记账币种",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "人民币",
+                                              "contentDescription": "人民币",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "className": "android.widget.RelativeLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.icbc:id/detail_item",
+                                          "packageName": "com.icbc",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.LinearLayout",
+                                              "packageName": "com.icbc",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.LinearLayout",
+                                                  "packageName": "com.icbc",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.widget.TextView",
+                                                      "viewId": "com.icbc:id/tv_left",
+                                                      "text": "交易卡余额",
+                                                      "packageName": "com.icbc"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "className": "android.widget.TextView",
+                                              "viewId": "com.icbc:id/tv_right",
+                                              "text": "-32.50",
+                                              "contentDescription": "-32.50",
+                                              "packageName": "com.icbc"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "viewId": "com.icbc:id/ll_query_cardNum",
+                                  "packageName": "com.icbc",
+                                  "children": [
+                                    {
+                                      "className": "android.view.View",
+                                      "packageName": "com.icbc"
+                                    },
+                                    {
+                                      "className": "android.widget.LinearLayout",
+                                      "packageName": "com.icbc",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.TextView",
+                                          "viewId": "com.icbc:id/tv_query_cardNum",
+                                          "text": "查询完整交易卡号或账户",
+                                          "packageName": "com.icbc"
+                                        },
+                                        {
+                                          "className": "android.widget.ImageView",
+                                          "viewId": "com.icbc:id/query_cardNum_switch",
+                                          "contentDescription": "开关按钮，已关闭",
+                                          "packageName": "com.icbc"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "android.view.View",
+      "viewId": "android:id/statusBarBackground",
+      "packageName": "com.icbc"
+    },
+    {
+      "className": "android.view.View",
+      "viewId": "android:id/navigationBarBackground",
+      "packageName": "com.icbc"
+    }
+  ]
+}

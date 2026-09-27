@@ -1,0 +1,39 @@
+name: Verify public source
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified 2026-09-27
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4, verified 2026-09-27
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install Android platform
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Check public files and history
+        run: python3 scripts/privacy_scan.py --history
+      - name: Verify and run Gitleaks
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          curl --fail --location --retry 3 --output gitleaks.tar.gz https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz
+          echo '551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  gitleaks.tar.gz' | sha256sum --check
+          tar -xzf gitleaks.tar.gz gitleaks
+          cd "$GITHUB_WORKSPACE"
+          "$RUNNER_TEMP/gitleaks" dir . --redact --no-banner
+          "$RUNNER_TEMP/gitleaks" git . --redact --no-banner --log-opts=--all
+      - name: Server tests
+        run: python3 -m unittest discover -s server -p 'test_*.py'
+      - name: Android checks
+        run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug assembleDemo

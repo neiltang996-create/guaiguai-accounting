@@ -1,0 +1,121 @@
+{
+  "packageName": "com.tencent.mm",
+  "children": [
+    {
+      "className": "android.widget.TextView",
+      "text": "00:31 回◆"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "令别100"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "CCB"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "示例烧烤店"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "-68.00"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "原价"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "优惠"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "邮储信用卡中心立减优惠¥2.00"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "当前状态"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "支付成功"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "支付时间"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "2024年4月12日14:20:30"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "商品"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "示例烧烤店-消费"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "商户全称"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "示例烧烤店"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "收单机构"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "示例收单机构"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "支付方式"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "耶储银行信用卡(8802)"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "交易单号"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "9000000000000000000000000009"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "商户单号"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "9000000000000000000008"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "账单服务"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "对订单有疑惑"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "同发起群收款"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "目在此商户的交易"
+    },
+    {
+      "className": "android.widget.TextView",
+      "text": "④申清电子凭证"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "className": "android.widget.FrameLayout",
+  "packageName": "com.eg.android.AlipayGphone",
+  "children": [
+    {
+      "className": "android.widget.LinearLayout",
+      "packageName": "com.eg.android.AlipayGphone",
+      "children": [
+        {
+          "className": "android.widget.FrameLayout",
+          "viewId": "android:id/content",
+          "packageName": "com.eg.android.AlipayGphone",
+          "children": [
+            {
+              "className": "android.widget.FrameLayout",
+              "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/nebulax_root_view",
+              "packageName": "com.eg.android.AlipayGphone",
+              "children": [
+                {
+                  "className": "android.widget.RelativeLayout",
+                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/splash_container",
+                  "packageName": "com.eg.android.AlipayGphone",
+                  "children": []
+                },
+                {
+                  "className": "android.widget.FrameLayout",
+                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/embeded_fragment_container",
+                  "packageName": "com.eg.android.AlipayGphone",
+                  "children": []
+                },
+                {
+                  "className": "android.widget.RelativeLayout",
+                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/nebulax_wrapper_view",
+                  "packageName": "com.eg.android.AlipayGphone",
+                  "children": [
+                    {
+                      "className": "android.widget.RelativeLayout",
+                      "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/fragment_container",
+                      "packageName": "com.eg.android.AlipayGphone",
+                      "children": [
+                        {
+                          "className": "android.widget.RelativeLayout",
+                          "packageName": "com.eg.android.AlipayGphone",
+                          "children": [
+                            {
+                              "className": "android.widget.RelativeLayout",
+                              "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/h5_web_content",
+                              "packageName": "com.eg.android.AlipayGphone",
+                              "children": [
+                                {
+                                  "className": "android.widget.FrameLayout",
+                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/h5_pc_container",
+                                  "packageName": "com.eg.android.AlipayGphone",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.FrameLayout",
+                                      "packageName": "com.eg.android.AlipayGphone",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.FrameLayout",
+                                          "packageName": "com.eg.android.AlipayGphone",
+                                          "children": []
+                                        },
+                                        {
+                                          "className": "com.alipay.mywebview.sdk.WebView",
+                                          "packageName": "com.eg.android.AlipayGphone",
+                                          "children": [
+                                            {
+                                              "className": "android.webkit.WebView",
+                                              "packageName": "com.eg.android.AlipayGphone",
+                                              "children": [
+                                                {
+                                                  "className": "android.view.View",
+                                                  "packageName": "com.eg.android.AlipayGphone",
+                                                  "children": [
+                                                    {
+                                                      "className": "android.view.View",
+                                                      "packageName": "com.eg.android.AlipayGphone",
+                                                      "children": [
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "示例礼服店",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "支出420元",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "text": "交易成功",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "支付时间",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "2024-04-12 16:10:15",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "2024-04-12 16:10:15",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "付款方式",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.Button",
+                                                          "text": "余额宝 ",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "商品说明",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "收钱码收款",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.view.View",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": [
+                                                                {
+                                                                  "className": "android.view.View",
+                                                                  "packageName": "com.eg.android.AlipayGphone",
+                                                                  "children": [
+                                                                    {
+                                                                      "className": "android.widget.TextView",
+                                                                      "text": "收钱码收款",
+                                                                      "packageName": "com.eg.android.AlipayGphone",
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "付款备注",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "示例服装租金",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "示例服装租金",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "支付奖励",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.view.View",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": [
+                                                                {
+                                                                  "className": "android.widget.Button",
+                                                                  "text": "立即领取10积分",
+                                                                  "packageName": "com.eg.android.AlipayGphone",
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "收款方全称",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "text": "*甲(示例)",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "*甲(示例)",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "推荐服务",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "你有1笔现金可用",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "去看看",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.Button",
+                                                          "text": "更多",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "text": "账单管理",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "text": "已解锁\"服饰装扮\"贴纸，去兑换好礼",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "账单分类",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "服饰装扮",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "标签",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "请选择",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "使用记账本，查看自定义分类、标签统计",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.Image",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "text": "计入收支",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.widget.ToggleButton",
+                                                          "text": "开关",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.TextView",
+                                                              "text": "备注",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            },
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "添加",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.widget.TextView",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": []
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "联系收款方",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "查看往来记录",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "AA收款",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "往来流水证明",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "申请电子回单",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "去评价",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "className": "android.view.View",
+                                                          "packageName": "com.eg.android.AlipayGphone",
+                                                          "children": [
+                                                            {
+                                                              "className": "android.widget.Button",
+                                                              "text": "对此订单有疑问",
+                                                              "packageName": "com.eg.android.AlipayGphone",
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "className": "android.widget.FrameLayout",
+                                          "packageName": "com.eg.android.AlipayGphone",
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "className": "android.view.View",
+                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/h5_h_divider",
+                                  "packageName": "com.eg.android.AlipayGphone",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "className": "android.widget.LinearLayout",
+                      "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/penetrableLinearLayout_container",
+                      "packageName": "com.eg.android.AlipayGphone",
+                      "children": [
+                        {
+                          "className": "android.view.View",
+                          "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/view_statusBar",
+                          "packageName": "com.eg.android.AlipayGphone",
+                          "children": []
+                        },
+                        {
+                          "className": "android.widget.RelativeLayout",
+                          "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/relativeLayout_content",
+                          "packageName": "com.eg.android.AlipayGphone",
+                          "children": [
+                            {
+                              "className": "android.widget.FrameLayout",
+                              "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/frameLayout_backButton",
+                              "contentDescription": "返回",
+                              "packageName": "com.eg.android.AlipayGphone",
+                              "children": [
+                                {
+                                  "className": "android.widget.FrameLayout",
+                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/auiconView_backButton",
+                                  "packageName": "com.eg.android.AlipayGphone",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.TextView",
+                                      "text": "",
+                                      "contentDescription": " ",
+                                      "packageName": "com.eg.android.AlipayGphone",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "className": "android.widget.RelativeLayout",
+                              "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/relativeLayout_titleContainer",
+                              "packageName": "com.eg.android.AlipayGphone",
+                              "children": [
+                                {
+                                  "className": "android.widget.LinearLayout",
+                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/linearLayout_titleContainer",
+                                  "packageName": "com.eg.android.AlipayGphone",
+                                  "children": [
+                                    {
+                                      "className": "android.widget.LinearLayout",
+                                      "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/ellipsizeGroupLayout_title",
+                                      "packageName": "com.eg.android.AlipayGphone",
+                                      "children": [
+                                        {
+                                          "className": "android.widget.LinearLayout",
+                                          "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/linearLayout_title",
+                                          "packageName": "com.eg.android.AlipayGphone",
+                                          "children": [
+                                            {
+                                              "className": "android.widget.FrameLayout",
+                                              "packageName": "com.eg.android.AlipayGphone",
+                                              "children": [
+                                                {
+                                                  "className": "android.widget.TextView",
+                                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/textView_title",
+                                                  "text": "账单详情",
+                                                  "packageName": "com.eg.android.AlipayGphone",
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "className": "android.widget.FrameLayout",
+                                  "viewId": "com.alipay.multiplatform.phone.xriver_integration:id/frameLayout_customContainer",
+                                  "packageName": "com.eg.android.AlipayGphone",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

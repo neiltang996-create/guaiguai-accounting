@@ -1,0 +1,9 @@
+# Optional Android build defaults. UTF-8. Copy to config.local.properties (ignored).
+# Leave credentials empty for public builds. Values compile into the APK and can be extracted.
+person.a.name=用户 A
+person.b.name=用户 B
+household.id=DEMOHOME
+sync.lanUrl=
+sync.wanUrl=
+sync.token=
+merchant.charging=示例充电服务有限公司

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自动记账模块专用字符串。由 auto-bill 维护，避免与 ui 争用 strings.xml。 -->
+<resources>
+    <!-- 通知 -->
+    <string name="auto_notif_title">记一笔？</string>
+    <string name="auto_notif_confirm">记下来</string>
+    <string name="auto_notif_change">改一下</string>
+    <string name="auto_notif_ignore">忽略</string>
+    <string name="auto_notif_duplicate">这笔可能已经记过了</string>
+    <string name="auto_notif_saved">已记好</string>
+
+    <!-- 快速确认页 -->
+    <string name="auto_confirm_title_pay">记一笔？</string>
+    <string name="auto_confirm_title_refund">记一笔退款？</string>
+    <string name="auto_confirm_title_income">记一笔收入？</string>
+    <string name="auto_confirm_loading">载入中…</string>
+    <string name="auto_confirm_missing">这条待确认账单已不存在</string>
+    <string name="auto_confirm_resolved">这条账单已经处理过了</string>
+    <string name="auto_confirm_close">关闭</string>
+    <string name="auto_confirm_asset">付款资产</string>
+    <string name="auto_confirm_category">分类</string>
+    <string name="auto_confirm_subcategory">二级分类</string>
+    <string name="auto_confirm_time">时间</string>
+    <string name="auto_confirm_family_prefix">"家庭 · "</string>
+    <string name="auto_confirm_personal_prefix">"个人 · "</string>
+    <string name="auto_confirm_save">确认入账</string>
+    <string name="auto_confirm_ignore">忽略</string>
+    <string name="auto_confirm_order_id">订单号 %1$s</string>
+    <string name="auto_confirm_title_transfer">记一笔转账？</string>
+    <string name="auto_confirm_to_asset">转入账户</string>
+    <string name="auto_confirm_to_asset_hint">请选择转入账户（转出与转入不能是同一个账户）</string>
+
+    <!-- 底部大面板（钱迹式记账面板） -->
+    <string name="auto_confirm_type_expense">支出</string>
+    <string name="auto_confirm_type_income">收入</string>
+    <string name="auto_confirm_type_transfer">转账</string>
+    <string name="auto_confirm_refund_auto">退款 · 自动识别</string>
+    <string name="auto_confirm_asset_income">收款资产</string>
+    <string name="auto_confirm_asset_from">转出资产</string>
+    <string name="auto_confirm_pick_asset_pay">选择付款资产</string>
+    <string name="auto_confirm_pick_asset_income">选择收款资产</string>
+    <string name="auto_confirm_pick_asset_from">选择转出资产</string>
+    <string name="auto_confirm_pick_asset_to">选择转入资产</string>
+    <string name="auto_confirm_back">返回</string>
+    <string name="auto_confirm_cancel">取消</string>
+    <string name="auto_confirm_save_short">保存</string>
+    <string name="auto_confirm_select_category">选择分类</string>
+    <string name="auto_confirm_second_level">二级分类</string>
+    <string name="auto_confirm_ignore_long">忽略这笔，不记账</string>
+    <string name="auto_confirm_transfer_tip">转账只挪动两个账户的余额，不计入收支统计</string>
+    <string name="auto_confirm_transfer_no_target">还需要选一个转入账户</string>
+    <string name="auto_confirm_book">账本</string>
+    <string name="auto_confirm_book_hint">自动记账固定记入默认账本「%1$s」。多账本切换稍后支持。</string>
+    <string name="auto_confirm_reimburse">报销</string>
+    <string name="auto_confirm_exclude">不计收支</string>
+    <string name="auto_confirm_tag">标签</string>
+    <string name="auto_confirm_image">图片</string>
+    <string name="auto_confirm_coming_soon">「%1$s」在自动记账面板里暂未开放，先保存这笔，之后可以在账单列表里补充。</string>
+    <string name="auto_confirm_edit_amount">改金额</string>
+    <string name="auto_confirm_edit_merchant">改商户 / 备注</string>
+    <string name="auto_confirm_amount_hint">金额（元）</string>
+    <string name="auto_confirm_merchant_hint">商户 / 备注</string>
+    <string name="auto_confirm_amount_invalid">请输入大于 0 的金额</string>
+    <string name="auto_confirm_failed">没能入账，请稍后重试，或改用首页「记一笔」</string>
+    <string name="auto_confirm_coupon">优惠券 -%1$s</string>
+    <string name="auto_confirm_family_group">家庭共享资产</string>
+    <string name="auto_confirm_personal_group">个人资产</string>
+    <string name="auto_confirm_no_asset">还没有资产，请先到「资产」页添加</string>
+    <string name="auto_confirm_merchant_placeholder">点这里填写商户 / 备注</string>
+    <string name="auto_confirm_ok">知道了</string>
+
+    <!-- 渠道名 -->
+    <string name="auto_channel_alipay">支付宝</string>
+    <string name="auto_channel_wechat">微信</string>
+    <string name="auto_channel_unionpay">云闪付</string>
+    <string name="auto_channel_unknown">自动识别</string>
+
+    <!-- 授权引导 -->
+    <string name="auto_perm_accessibility_title">开启自动记账（无障碍）</string>
+    <string name="auto_perm_notification_title">开启付款通知识别</string>
+    <string name="auto_perm_accessibility_on">无障碍已开启</string>
+    <string name="auto_perm_accessibility_off">无障碍未开启</string>
+    <string name="auto_perm_notification_on">通知使用权已开启</string>
+    <string name="auto_perm_notification_off">通知使用权未开启</string>
+    <string name="auto_perm_post_notifications_off">通知权限未开启，无法弹出确认提醒</string>
+    <string name="auto_perm_open_settings">去设置</string>
+
+    <!-- 悬浮确认卡片（付款后自动弹出，钱迹式体验） -->
+    <string name="auto_overlay_confirm">记下</string>
+    <string name="auto_overlay_change">改一下</string>
+    <string name="auto_overlay_dismiss">✕</string>
+    <string name="auto_overlay_dismiss_desc">忽略这笔</string>
+    <string name="auto_overlay_pending_more">还有 %1$d 笔待确认</string>
+    <string name="auto_overlay_transfer_prefix">转账</string>
+    <string name="auto_transfer_need_target">这笔转账需要先选转入账户，已为你打开确认页</string>
+    <string name="auto_perm_overlay_hint_title">付款后自动弹出记账卡片</string>
+    <string name="auto_perm_overlay_hint_text">开启「显示在其他应用上层」后，付款时会像钱迹一样直接浮出记账卡片。现在只能发通知。</string>
+    <string name="auto_perm_overlay_hint_action">去开启</string>
+</resources>

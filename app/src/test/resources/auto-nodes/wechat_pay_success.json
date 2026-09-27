@@ -1,0 +1,31 @@
+{
+  "className": "android.widget.LinearLayout",
+  "packageName": "com.tencent.mm",
+  "children": [
+    { "className": "android.widget.TextView", "text": "支付成功" },
+    { "className": "android.widget.TextView", "text": "¥32.00" },
+    { "className": "android.widget.TextView", "text": "星巴克" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "付款方式" },
+        { "className": "android.widget.TextView", "text": "零钱" }
+      ]
+    },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "优惠" },
+        { "className": "android.widget.TextView", "text": "¥2.00" }
+      ]
+    },
+    { "className": "android.widget.TextView", "text": "交易单号 9000000000000000000000000011" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "交易时间" },
+        { "className": "android.widget.TextView", "text": "2024-04-11 13:03:38" }
+      ]
+    }
+  ]
+}

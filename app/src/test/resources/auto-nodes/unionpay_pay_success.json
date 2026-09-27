@@ -1,0 +1,16 @@
+{
+  "className": "android.widget.LinearLayout",
+  "packageName": "com.unionpay",
+  "children": [
+    { "className": "android.widget.TextView", "text": "支付成功" },
+    { "className": "android.widget.TextView", "text": "¥128.00" },
+    { "className": "android.widget.TextView", "text": "全家便利店" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "付款方式" },
+        { "className": "android.widget.TextView", "text": "云闪付" }
+      ]
+    }
+  ]
+}

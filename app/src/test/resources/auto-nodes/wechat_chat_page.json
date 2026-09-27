@@ -1,0 +1,9 @@
+{
+  "className": "android.widget.LinearLayout",
+  "packageName": "com.tencent.mm",
+  "children": [
+    { "className": "android.widget.TextView", "text": "示例联系人" },
+    { "className": "android.widget.TextView", "text": "这是一条合成聊天消息" },
+    { "className": "android.widget.TextView", "text": "用于确认聊天页面不会触发记账" }
+  ]
+}

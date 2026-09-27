@@ -1,0 +1,32 @@
+{
+  "className": "android.widget.LinearLayout",
+  "packageName": "com.tencent.mm",
+  "children": [
+    { "className": "android.widget.TextView", "text": "账单详情" },
+    { "className": "android.widget.TextView", "text": "¥45.00" },
+    { "className": "android.widget.TextView", "text": "美团" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "当前状态" },
+        { "className": "android.widget.TextView", "text": "已退款" }
+      ]
+    },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "支付方式" },
+        { "className": "android.widget.TextView", "text": "零钱" }
+      ]
+    },
+    { "className": "android.widget.TextView", "text": "商户全称 美团科技有限公司" },
+    { "className": "android.widget.TextView", "text": "交易单号 9000000000000000000000000007" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "交易时间" },
+        { "className": "android.widget.TextView", "text": "2024-04-11 12:00:00" }
+      ]
+    }
+  ]
+}

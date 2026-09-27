@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自动记账无障碍配置。
+
+  packageNames 限定为支付宝 / 微信 / 云闪付：既省电，也避免读到无关内容。
+  需要支持更多支付渠道时，在此追加包名即可（无需改代码逻辑）。
+
+  只监听窗口状态与内容变化，不做全局读取；不订阅 typeViewTextChanged 之类的高频事件。
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:canTakeScreenshot="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="50"
+    android:packageNames="com.eg.android.AlipayGphone,com.tencent.mm,com.unionpay,com.icbc"
+    android:settingsActivity="com.family.ledger.MainActivity" />

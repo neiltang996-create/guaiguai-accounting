@@ -1,0 +1,17 @@
+services:
+  familyledger-sync:
+    build: .
+    image: familyledger-sync:local
+    container_name: familyledger-sync
+    restart: unless-stopped
+    ports:
+      - "${FAMILYLEDGER_BIND:-127.0.0.1}:${FAMILYLEDGER_PORT:-47822}:47822"
+    environment:
+      FAMILYLEDGER_PORT: "47822"
+      FAMILYLEDGER_DATA: /data
+      FAMILYLEDGER_TOKEN: ${FAMILYLEDGER_TOKEN:?Set a private random token in .env.local}
+      FAMILYLEDGER_BACKUP_DIR: /backup
+      FAMILYLEDGER_BACKUP_KEEP: "30"
+    volumes:
+      - ${FAMILYLEDGER_DATA_DIR:-./data}:/data
+      - ${FAMILYLEDGER_BACKUP_DIR:-./backups}:/backup

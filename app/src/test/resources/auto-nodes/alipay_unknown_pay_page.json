@@ -1,0 +1,13 @@
+{
+  "className": "android.widget.LinearLayout",
+  "packageName": "com.eg.android.AlipayGphone",
+  "children": [
+    { "className": "android.widget.TextView", "text": "付款码" },
+    { "className": "android.widget.TextView", "text": "请出示付款码给收银员" },
+    { "className": "android.widget.TextView", "text": "余额宝" },
+    {
+      "className": "android.widget.ImageView",
+      "contentDescription": "二维码"
+    }
+  ]
+}

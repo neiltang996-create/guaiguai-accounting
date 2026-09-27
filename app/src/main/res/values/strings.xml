@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">乖乖记账</string>
+
+    <string name="accessibility_service_label">乖乖记账 · 自动记账</string>
+    <string name="accessibility_service_description">开启后，在你用支付宝或微信付款完成时读取付款金额与商户，生成一条待确认的账单。不会读取聊天内容，也不会自动提交，所有账单都需要你确认。</string>
+
+    <string name="notification_listener_label">乖乖记账 · 付款通知识别</string>
+
+    <string name="notif_channel_auto_bill">待确认账单</string>
+    <string name="notif_channel_sync">同步</string>
+    <string name="notif_channel_sync_desc">家庭共享资产的同步状态</string>
+</resources>

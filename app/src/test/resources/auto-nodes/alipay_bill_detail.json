@@ -1,0 +1,44 @@
+{
+  "className": "android.widget.FrameLayout",
+  "packageName": "com.eg.android.AlipayGphone",
+  "children": [
+    { "className": "android.widget.TextView", "text": "账单详情" },
+    { "className": "android.widget.TextView", "text": "-45.00" },
+    { "className": "android.widget.TextView", "text": "美团" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "当前状态" },
+        { "className": "android.widget.TextView", "text": "支付成功" }
+      ]
+    },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "商户名称" },
+        { "className": "android.widget.TextView", "text": "美团" }
+      ]
+    },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "付款方式 余额宝" }
+      ]
+    },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "优惠" },
+        { "className": "android.widget.TextView", "text": "0.30元" }
+      ]
+    },
+    { "className": "android.widget.TextView", "text": "订单号：9000000000000000000003" },
+    {
+      "className": "android.widget.LinearLayout",
+      "children": [
+        { "className": "android.widget.TextView", "text": "创建时间" },
+        { "className": "android.widget.TextView", "text": "2024-04-11 13:03:38" }
+      ]
+    }
+  ]
+}
